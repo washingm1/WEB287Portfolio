@@ -1,0 +1,56 @@
+.wrapper {
+    padding: 2rem;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+
+.leftSide {
+    width: 30%;
+}
+
+
+.aboutHeader {
+    font-size: 3rem;
+
+}
+
+.aboutImg {
+
+    width: 30rem;
+    height: 30rem;
+    border: 4px solid black;
+}
+
+.aboutText {
+    margin-top: 3vh;
+    width: 60%;
+    font-size: 1.4rem;
+}
+
+
+
+    .aboutImg {
+        align-self: center;
+    }
+    .aboutText {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+    display: flex;
+        margin-top: 20vh;
+        width: 100%;
+        background-color: #384251;
+        height: 4vh;
+        justify-content: end;
+        align-items:center;   
+ }
+
+    .footer p {
+        color: white;
+        margin-right: 2vw;
+
+    }
