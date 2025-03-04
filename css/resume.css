@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+}
+.wrapper {
+    margin-top: 4vh;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.resumeDownload {
+margin-top: 5vh;
+height: 30vh;
+margin-bottom: 10vh;
+}
+
+.pdfWrap {
+    margin-top: 10vh;
+    height: 40vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.pdfWrap h2 {
+margin-top: 4vh;
+}

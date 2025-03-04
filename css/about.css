@@ -1,11 +1,8 @@
-body {
-    height: 100vh;
-}
 
 
 .wrapper {
     padding: 2rem;
-    height: auto;
+    height: 100vh;
     align-items: center;
     text-align: center;
 }
@@ -32,6 +29,13 @@ body {
     margin-top: 3vh;
     width: 60%;
     font-size: 1.4rem;
+    
+}
+
+@media screen and (max-width: 730px) {
+    .aboutText {
+        font-size: 1.5vh;
+    }
 }
 
 
@@ -42,21 +46,4 @@ body {
     .aboutText {
         width: 100%;
         text-align: center;
-    }
-
-    .footer {
-    display: flex;
-
-        margin-top: 20vh;
-        margin-bottom: 0;
-        width: 100%;
-        background-color: #384251;
-        height: 4vh;
-        justify-content: end;
-        align-items:center;   
- }
-
-    .footer p {
-        color: white;
-        margin-right: 2vw;
     }

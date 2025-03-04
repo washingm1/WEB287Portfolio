@@ -1,0 +1,79 @@
+
+body {
+    background-color: #F7F7F2;
+}
+
+.introWrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.welcomeText {
+    font-size: 4rem;
+    margin-bottom: 5vh;
+}
+
+.introText {
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 1.5rem;
+}
+
+
+.quickAbout {
+    width: 60%;
+    margin-left: 40%;
+    margin-top: 18vh;
+    background-color: #36494e;
+    color: white;
+    padding:2em 0 2em 0;
+    border-radius: 3em 0 0 3em;
+    overflow:visible;
+  
+}
+
+.quickAbout h2 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.quickAbout p {
+    margin-top: 1vh;
+    font-size: 1.2em;
+    text-align: right;
+    line-height: 1.4em;
+    padding-right: 5vw;
+    padding-left: 2vw;
+}
+
+
+@media screen and (max-width: 768px) {
+    .introText {
+        background-color: #ffffffc9;
+    }
+}
+
+.buttonWrap {
+    text-align: center;
+    margin-top: 5vh;
+}
+#buttonLink {
+    padding: 2rem;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #326F4b;
+    text-decoration: none;
+}
+
+#treepic {
+    width: 7em;
+    display: flex;
+    position: fixed;
+    float: left;
+    bottom: 0;
+}
