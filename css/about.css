@@ -1,8 +1,9 @@
 
-
+body {
+    height: 100vh;
+}
 .wrapper {
     padding: 2rem;
-    height: 100vh;
     align-items: center;
     text-align: center;
 }
@@ -37,9 +38,6 @@
         font-size: 1.5vh;
     }
 }
-
-
-
     .aboutImg {
         align-self: center;
     }
