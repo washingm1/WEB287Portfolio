@@ -14,7 +14,15 @@ input[type=text], select, textarea {
     resize: vertical 
   }
   
+  .otherContact {
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+  }
 
+  .otherContact h2 {
+    font-size: 2.5rem;
+  }
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
