@@ -35,6 +35,12 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
+.quickAbout a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
 .quickAbout h2 {
     font-size: 2.4rem;
     text-align: center;
